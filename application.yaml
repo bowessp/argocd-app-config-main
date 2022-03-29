@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
 
-  source: https://github.com/bowessp/argocd-app-config-main.git
-    repoURL: 
+  source: 
+    repoURL: https://github.com/bowessp/argocd-app-config-main.git
     targetRevision: HEAD
     path: dev
   destination: 
